@@ -35,7 +35,7 @@ public class App {
 		tree.addBoardToCategory(5, BoardManager.createBoard("로제"));
 
 		// JSON 출력 테스트
-		printCategoryTreeByName(tree, "여자1");
+		printCategoryTreeByName(tree, "여자");
 		printCategoryTreeById(tree,1);
 	}
 
