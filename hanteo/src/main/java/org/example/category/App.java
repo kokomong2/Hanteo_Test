@@ -19,18 +19,18 @@ public class App {
 		tree.addCategoryRelation(4, 5);
 
 		// 게시판 추가 (엑소)
-		tree.addBoardToCategory(2, BoardManager.createBoard("공지사항"));
+		tree.addBoardToCategory(2, BoardManager.createNoticeBoard());
 		tree.addBoardToCategory(2, BoardManager.createBoard("첸"));
 		tree.addBoardToCategory(2, BoardManager.createBoard("백현"));
 		tree.addBoardToCategory(2, BoardManager.createBoard("시우민"));
 
 		// 게시판 추가 (방탄소년단)
-		tree.addBoardToCategory(3, BoardManager.createBoard("공지사항"));
+		tree.addBoardToCategory(3, BoardManager.createNoticeBoard());
 		tree.addBoardToCategory(3, BoardManager.getAnonymousBoard());
 		tree.addBoardToCategory(3, BoardManager.createBoard("뷔"));
 
 		// 게시판 추가 (블랙핑크)
-		tree.addBoardToCategory(5, BoardManager.createBoard("공지사항"));
+		tree.addBoardToCategory(5, BoardManager.createNoticeBoard());
 		tree.addBoardToCategory(5, BoardManager.getAnonymousBoard());
 		tree.addBoardToCategory(5, BoardManager.createBoard("로제"));
 

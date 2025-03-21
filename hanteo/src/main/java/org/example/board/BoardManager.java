@@ -19,6 +19,10 @@ public class BoardManager {
 		return anonymousBoard;
 	}
 
+	public static Board createNoticeBoard() {
+		return createBoard("공지사항");
+	}
+
 	public static int getAnonymousBoardId() {
 		return anonymousBoardId;
 	}
