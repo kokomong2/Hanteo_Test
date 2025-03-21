@@ -1,7 +1,7 @@
 package org.example.board;
 
 public class Board {
-	private int id;
+	private final int id;
 	private String name;
 
 	public Board(int id, String name) {
@@ -15,5 +15,9 @@ public class Board {
 
 	public String getName() {
 		return name;
+	}
+
+	public void changeName(String name) {
+		this.name = name;
 	}
 }
